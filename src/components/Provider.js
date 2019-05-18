@@ -12,14 +12,23 @@ class Provider extends Component {
         name: "Bob's Grocery",
         products: [
           {name: "Bread", price: 1.99},
-          {name: "Milk", price: 3.99}
+          {name: "Milk", price: 3.99},
+          {name: "Ground Beef 1lb", price: 3.50}
         ]
       },
       {
         name: "Food Mart",
         products: [
           {name: "Bread", price: 1.49},
-          {name: "Milk", price: 3.29}
+          {name: "Milk", price: 3.29},
+          {name: "Crackers", price: .99}
+        ]
+      },
+      {
+        name: "Hometown Market",
+        products: [
+          {name: "Bread", price: 2.15},
+          {name: "Milk", price: 4.10}
         ]
       }
     ]

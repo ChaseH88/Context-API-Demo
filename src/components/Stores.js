@@ -15,7 +15,7 @@ const Stores = () => (
           // render out some data and you're good to go!!!
           return(
             <div className="store">
-              {store.name}
+              <h3>{store.name}</h3>
               <ul className="productList">
                 {/* since I have access to the state, I can run an array on anything now! */}
                 {store.products.map((prod) => {
